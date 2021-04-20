@@ -3,14 +3,14 @@
     --light: #f4f4f4;
     --dark: #333;
     --warning: black;
-  }
+}
   
   *,
   *::before,
   *::after {
     font-family: inherit;
     box-sizing: border-box;
-  }
+}
 
 
   body {
@@ -24,8 +24,7 @@
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     grid-template: "lists" "active";
-
-  }
+}
 
   
   .all-tasks {
